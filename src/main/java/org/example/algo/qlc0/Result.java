@@ -1,4 +1,4 @@
-package org.example.algo;
+package org.example.algo.qlc0;
 import java.math.*;
 import java.util.*;
 

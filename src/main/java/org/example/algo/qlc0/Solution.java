@@ -1,4 +1,6 @@
-package org.example.algo;
+package org.example.algo.qlc0;
+
+import org.example.algo.qlc0.Result;
 
 import java.io.BufferedReader;
 import java.io.IOException;
