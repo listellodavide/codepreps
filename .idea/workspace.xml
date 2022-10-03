@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2d1848-6c0c-4fe4-bca0-a06d8e3ec91a" name="Changes" comment="">
+    <list default="true" id="df2d1848-6c0c-4fe4-bca0-a06d8e3ec91a" name="Changes" comment="added project description README.md">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/TwoNumberSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/qlc291/PatternFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/qlc291/SimplePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/algo/qlc291/SolutionWordPatter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/TwoNumberSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tailrec/TailCalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tailrec/TailCalls.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,25 +40,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/projects/hello_rust",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/codepreps2&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactorialTailRecursionTest.testFactorialNormalOf80">
-    <configuration name="FactorialTailRecursionTest.testFactorialNormalOf20" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codepreps" />
+  <component name="RunManager" selected="JUnit.FibonacciTailRecursionTest">
+    <configuration name="TwoNumberSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.algo.TwoNumberSum" />
+      <module name="codepreps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactorialTailRecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codepreps2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -61,45 +80,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.FactorialTailRecursionTest" />
-      <option name="METHOD_NAME" value="testFactorialNormalOf20" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTailRecursionTest.testFactorialNormalOf80" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codepreps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FactorialTailRecursionTest" />
-      <option name="METHOD_NAME" value="testFactorialNormalOf80" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FibonacciNormalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codepreps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciNormalTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FibonacciTailRecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codepreps" />
+      <module name="codepreps2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -113,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciTailRecursionTest.testFibonacciNormalOf80" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codepreps" />
+    <configuration name="TwoNumberSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codepreps2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -122,8 +109,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.FibonacciTailRecursionTest" />
-      <option name="METHOD_NAME" value="testFibonacciNormalOf80" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoNumberSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoNumberSumTest.testCase12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codepreps2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TwoNumberSumTest" />
+      <option name="METHOD_NAME" value="testCase12" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactorialTailRecursionTest.testFactorialNormalOf80" />
-        <item itemvalue="JUnit.FibonacciTailRecursionTest.testFibonacciNormalOf80" />
         <item itemvalue="JUnit.FibonacciTailRecursionTest" />
-        <item itemvalue="JUnit.FibonacciNormalTest" />
-        <item itemvalue="JUnit.FactorialTailRecursionTest.testFactorialNormalOf20" />
+        <item itemvalue="JUnit.FactorialTailRecursionTest" />
+        <item itemvalue="Application.TwoNumberSum" />
+        <item itemvalue="JUnit.TwoNumberSumTest.testCase12" />
+        <item itemvalue="JUnit.TwoNumberSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +154,29 @@
       <workItem from="1663751509326" duration="46000" />
       <workItem from="1663751562491" duration="50000" />
       <workItem from="1663836320514" duration="4964000" />
+      <workItem from="1663931232307" duration="42000" />
+      <workItem from="1663931296899" duration="645000" />
+      <workItem from="1664008380835" duration="5491000" />
+      <workItem from="1664356651884" duration="9171000" />
+      <workItem from="1664485763951" duration="4000" />
+      <workItem from="1664486751113" duration="6000" />
+      <workItem from="1664805880511" duration="5882000" />
     </task>
+    <task id="LOCAL-00001" summary="added 4 new challenge solutions">
+      <created>1664358361525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664358361525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added project description README.md">
+      <created>1664359199356</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664359199356</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +192,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added 4 new challenge solutions" />
+    <MESSAGE value="added project description README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added project description README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,6 +220,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/algo/Result.java</url>
           <line>16</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algo/qlc291/SimplePattern.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/algo/TwoNumberSum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

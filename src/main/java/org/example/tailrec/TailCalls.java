@@ -1,5 +1,5 @@
 package org.example.tailrec;
-public class TailCalls {
+public class TailCalls<T> {
 
     public static <T> TailCall<T> done(final T value) {
         return new TailCall<T>() {
