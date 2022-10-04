@@ -1,6 +1,7 @@
 package org.example;
 
 /***
+ *  Time complexity of O(2^N). This is because every call to fibonacci creates 2 more calls to fibonacci.
  *  Classic implementation of Fibonacci using Java standard normal recursion
  *
  *  Math definition of Fibonacci F(n) is:

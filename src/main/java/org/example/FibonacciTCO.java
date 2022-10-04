@@ -5,7 +5,8 @@ import org.example.tailrec.TailCall;
 import static org.example.tailrec.TailCalls.done;
 
 /***
- * Fibonacci implementation using Tail Call Optimizations (reduce the size of the stack trace and avoid stack overflow)
+ * Time complexity of O(2^N). This is because every call to fibonacci creates 2 more calls to fibonacci.
+ * Fibonacci's implementation using Tail Call Optimizations (reduce the size of the stack trace and avoid stack overflow)
  */
 public class FibonacciTCO {
 
